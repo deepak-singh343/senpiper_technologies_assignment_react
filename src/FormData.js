@@ -5,6 +5,7 @@ class FormData extends Component {
         const{forms}=this.props;
         return (
             <div>
+                <h4 className='grey-text text-darken-2'>All Feedback</h4>
                 <table className='highlight'>
                     <thead>
                     <tr className='blue-text'>
