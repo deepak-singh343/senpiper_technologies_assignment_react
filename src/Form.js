@@ -35,6 +35,12 @@ class Form extends Component {
     render() {
         return (
             <div className='container'>
+                <div>
+                    <h5 className='blue-text'>Aromatic Bar</h5>
+                    <p className='grey-text text-darken-2'>We are committed to providing you with the best dining experience possible,
+                        so we welcome your comments.Please fill the questionnaire.Thank you
+                    </p>
+                </div>
                 <div className="row">
                     <form className="col s12" onSubmit={this.handleSubmit}>
                         <div className="row">
